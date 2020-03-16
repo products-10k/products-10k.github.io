@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Large scale product recognition dataset</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <div class="container"><a href="#" class="navbar-brand">Products-10K</a>
+            <ul class="navbar-nav mr-auto order-1">
+                <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#dates">Important Dates</a></li>
+                <li class="nav-item"><a class="nav-link" href="#paper">Paper</a></li>
+                <li class="nav-item"><a class="nav-link" href="./challenge.html" target="_blank">Challenge</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <main id="main" class="site-main main">
+        <section class="container" id="banner">
+            <img src="./img/products-10k-logo-2.png" width=120>
+            <div class="title-text-box">
+                <h1 class="display-4 text-bold">Products-10K</h1>
+                <h2 class="display-5 text-bold">Large Scale Product Recognition Dataset</h1>
+                <h5 class="text-regular">JD AI research</h5>
+            </div>
+            <a class="btn" id="learn-more-btn" href="#overview" role="button">Learn more</a>
+            <a class="btn" id="download-btn" href="./challenge.html" role="button" target="_blank">Download dataset</a>
+        </section>
+
+        <section class="container">
+            <div class="card" id="overview">
+                <div class="card-body">
+                    <div class="media">
+                        <embed src="./img/dataset.svg" type="image/svg+xml" class="mr-3 align-self-center" width=40/>
+                        <div class="media-body">
+                          <h5 class="mt-0">Overview</h5>
+                          Products-10k: Large Scale Product Recognition Dataset
+                        </div>
+                      </div>
+                    <p class="card-text">With the rapid development of electronic commerce, the way of shopping has
+                        experienced a revolutionary evolution. To fully meet customers’ massive and diverse online
+                        shopping needs with quick response, retailing AI system needs to automatically recognize
+                        products from images and videos at the stock-keeping unit (SKU) level with high accuracy.
+                        However, product recognition is still a challenging task, since many of SKU-level products are
+                        fine-grained and visually similar by a rough glimpse. Although there are already some products
+                        benchmarks available, these datasets are either too small (limited number of products) or
+                        noisy-labeled (lack of human labeling).
+                    </p>
+                    <p class="card-text">
+                        We construct a human-labeled products image dataset named “Products-10k”, which is so far the
+                        largest production recognition dataset containing 10,000 products frequently bought by online
+                        customers in JD.com, covering a full spectrum of categories including Fashion, 3C, food,
+                        healthcare, household commodities, etc.. Moreover, large-scale product labels are organized as a
+                        graph to indicate the complex hierarchy and inter-dependency among products.
+                    </p>
+                    <p class="card-text">
+                        Based on this dataset, we organize the 1st Challenge on SKU-level production recognition. The
+                        final results will be announced at ICPR2020, and the winner will be invited to present their
+                        approaches at the workshop. We encourage engineers and researchers from the pattern recognition
+                        community to develop novel algorithms for this practical and challenging task.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card" id="dates">
+                <div class="card-body">
+                    <div class="media">
+                        <embed src="./img/calender.svg" type="image/svg+xml" class="mr-3 align-self-center" width=40/>
+                        <div class="media-body">
+                          <h5 class="mt-0">Important Dates</h5>
+                          Important dates of Large scale Product Recognition Challenge
+                        </div>
+                      </div>
+                    <table class="table table-striped table-bordered">
+                        <tbody>
+                          <tr>
+                            <td>Challenge Launch Data</td>
+                            <td>May 15, 2020</td>
+                          </tr>
+                          <tr>
+                            <td>Challenge Submissions deadline</td>
+                            <td>August 1, 2020</td>
+                          </tr>
+                          <tr>
+                            <td>Challenge Award Notification</td>
+                            <td>August 8, 2020</td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="card" id="paper">
+                <div class="card-body">
+                    <div class="media">
+                        <embed src="./img/icon-paper.svg" type="image/svg+xml" class="mr-3 align-self-center" width=40/>
+                        <div class="media-body">
+                          <h5 class="mt-0">Paper</h5>
+                          Paper for Products-10k
+                        </div>
+                      </div>
+                    <p class="card-text">Coming soon</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">JDAI Research</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
